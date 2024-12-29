@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="log.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration</h1>
+        <form method="post" action="log.php">
+            <div class="insert">
+                <p class="p1">First Name</p>
+                <i class="fas fa-user"></i>
+                <input type="text" id="fn" name="fn" placeholder="Enter your first name" required>
+            </div>
+            <div class="insert">
+                <p class="p2">Last Name</p>
+                <i class="fas fa-user"></i>
+                <input type="text" id="ln" name="ln" placeholder="Enter your last name" required>
+            </div>
+            <div class="insert">
+                <p class="p3">Email</p>
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="insert">
+                <p class="p4">Password</p>
+                <i class="fas fa-lock"></i>
+                <input type="password" id="pass" name="pass" placeholder="Enter your password" required>
+            </div>
+            <input type="submit" value="Sign-Up" class="btn">
+        </form>
+        <p class="or">----------or----------</p>
+        <div class="gf">
+            <i class="fab fa-google"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+        </div>
+    </div>
+</body>
+</html>
